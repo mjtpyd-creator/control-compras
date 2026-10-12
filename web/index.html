@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Mis Compras</title>
+  <meta name="theme-color" content="#1f4e79">
+  <meta name="description" content="Control de compras por tickets">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div>
+      <span class="titulo">🧾 Mis Compras</span>
+      <span class="subtitulo" id="subtitulo">Control de compras</span>
+    </div>
+    <button id="btnNueva" class="boton boton-primario">＋ Nueva</button>
+  </header>
+
+  <nav class="tabnav">
+    <button class="tab activo" data-vista="resumen">Resumen</button>
+    <button class="tab" data-vista="compras">Compras</button>
+    <button class="tab" data-vista="prediccion">Predicción</button>
+    <button class="tab tab-nueva" data-vista="nueva">＋ Nueva</button>
+  </nav>
+
+  <main>
+    <section id="vista-resumen" class="vista"></section>
+    <section id="vista-compras" class="vista oculta"></section>
+    <section id="vista-prediccion" class="vista oculta"></section>
+    <section id="vista-nueva" class="vista oculta"></section>
+  </main>
+
+  <div id="aviso" class="aviso oculta" role="alert"></div>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,308 @@
+[
+  {
+    "fecha": "2026-05-12",
+    "comercio": "Supermercado Dia",
+    "numero": "S-10231",
+    "forma_pago": "Tarjeta debito",
+    "moneda": "ARS",
+    "total": 33950,
+    "iva_global": 10.5,
+    "lineas": [
+      {
+        "descripcion": "Leche entera 1 L",
+        "cantidad": 2,
+        "unidad": "ud",
+        "precio": 1850,
+        "categoria": "Supermercado"
+      },
+      {
+        "descripcion": "Pan de molde",
+        "cantidad": 1,
+        "unidad": "ud",
+        "precio": 2400,
+        "categoria": "Panaderia"
+      },
+      {
+        "descripcion": "Arroz 1 kg",
+        "cantidad": 2,
+        "unidad": "ud",
+        "precio": 1600,
+        "categoria": "Almacen y bebidas"
+      },
+      {
+        "descripcion": "Aceite girasol 1,5 L",
+        "cantidad": 1,
+        "unidad": "ud",
+        "precio": 4500,
+        "categoria": "Almacen y bebidas"
+      },
+      {
+        "descripcion": "Detergente 750 ml",
+        "cantidad": 1,
+        "unidad": "ud",
+        "precio": 3200,
+        "iva": 21,
+        "categoria": "Hogar y ferreteria"
+      },
+      {
+        "descripcion": "Yogur pack 6",
+        "cantidad": 3,
+        "unidad": "pack",
+        "precio": 1250,
+        "categoria": "Supermercado"
+      },
+      {
+        "descripcion": "Cafe molido 500 g",
+        "cantidad": 1,
+        "unidad": "ud",
+        "precio": 7800,
+        "categoria": "Almacen y bebidas"
+      },
+      {
+        "descripcion": "Papel higienico 4 rollos",
+        "cantidad": 1,
+        "unidad": "pack",
+        "precio": 5400,
+        "iva": 21,
+        "categoria": "Hogar y ferreteria"
+      }
+    ],
+    "archivo": "C:\\Users\\USUARIO\\Documents\\deepseek-harness\\default-workspace\\Control-Compras\\ejemplo\\tickets\\entrada\\2026-05-12_supermercado-dia_33950.00.jpg"
+  },
+  {
+    "fecha": "2026-05-20",
+    "comercio": "Carniceria Don Luis",
+    "numero": "C-88",
+    "forma_pago": "Efectivo",
+    "moneda": "ARS",
+    "total": 27200,
+    "iva_global": 10.5,
+    "lineas": [
+      {
+        "descripcion": "Asado de tira",
+        "cantidad": 2,
+        "unidad": "kg",
+        "precio": 9500,
+        "categoria": "Carniceria"
+      },
+      {
+        "descripcion": "Milanesas de ternera",
+        "cantidad": 1,
+        "unidad": "kg",
+        "precio": 8200,
+        "categoria": "Carniceria"
+      }
+    ],
+    "archivo": "C:\\Users\\USUARIO\\Documents\\deepseek-harness\\default-workspace\\Control-Compras\\ejemplo\\tickets\\entrada\\2026-05-20_carniceria-don-luis_27200.00.jpg"
+  },
+  {
+    "fecha": "2026-06-03",
+    "comercio": "Verduleria Verde",
+    "numero": "V-12",
+    "forma_pago": "Efectivo",
+    "moneda": "ARS",
+    "total": 14000,
+    "iva_global": 10.5,
+    "lineas": [
+      {
+        "descripcion": "Papa negra",
+        "cantidad": 3,
+        "unidad": "kg",
+        "precio": 1200,
+        "categoria": "Verduleria y frutas"
+      },
+      {
+        "descripcion": "Tomate perita",
+        "cantidad": 2,
+        "unidad": "kg",
+        "precio": 2800,
+        "categoria": "Verduleria y frutas"
+      },
+      {
+        "descripcion": "Manzana red delicious",
+        "cantidad": 1.5,
+        "unidad": "kg",
+        "precio": 3200,
+        "categoria": "Verduleria y frutas"
+      }
+    ],
+    "archivo": "C:\\Users\\USUARIO\\Documents\\deepseek-harness\\default-workspace\\Control-Compras\\ejemplo\\tickets\\entrada\\2026-06-03_verduleria-verde_14000.00.jpg"
+  },
+  {
+    "fecha": "2026-06-15",
+    "comercio": "Farmacia del Sol",
+    "numero": "F-455",
+    "forma_pago": "Tarjeta credito",
+    "moneda": "ARS",
+    "total": 10700,
+    "iva_global": 21,
+    "lineas": [
+      {
+        "descripcion": "Ibuprofeno 400 mg",
+        "cantidad": 2,
+        "unidad": "ud",
+        "precio": 4300,
+        "categoria": "Salud y farmacia"
+      },
+      {
+        "descripcion": "Alcohol en gel 500 ml",
+        "cantidad": 1,
+        "unidad": "ud",
+        "precio": 2100,
+        "categoria": "Cuidado personal"
+      }
+    ],
+    "archivo": "C:\\Users\\USUARIO\\Documents\\deepseek-harness\\default-workspace\\Control-Compras\\ejemplo\\tickets\\entrada\\2026-06-15_farmacia-del-sol_10700.00.jpg"
+  },
+  {
+    "fecha": "2026-07-02",
+    "comercio": "Estacion YPF",
+    "numero": "YPF-77",
+    "forma_pago": "Tarjeta debito",
+    "moneda": "ARS",
+    "total": 58000,
+    "iva_global": 21,
+    "lineas": [
+      {
+        "descripcion": "Nafta super",
+        "cantidad": 40,
+        "unidad": "L",
+        "precio": 1450,
+        "categoria": "Transporte y combustible"
+      }
+    ],
+    "archivo": "C:\\Users\\USUARIO\\Documents\\deepseek-harness\\default-workspace\\Control-Compras\\ejemplo\\tickets\\entrada\\2026-07-02_estacion-ypf_58000.00.jpg"
+  },
+  {
+    "fecha": "2026-07-19",
+    "comercio": "Panaderia La Espiga",
+    "numero": "P-3",
+    "forma_pago": "Efectivo",
+    "moneda": "ARS",
+    "total": 10000,
+    "iva_global": 10.5,
+    "lineas": [
+      {
+        "descripcion": "Pan frances",
+        "cantidad": 2,
+        "unidad": "kg",
+        "precio": 2600,
+        "categoria": "Panaderia"
+      },
+      {
+        "descripcion": "Facturas surtidas",
+        "cantidad": 1,
+        "unidad": "ud",
+        "precio": 4800,
+        "categoria": "Panaderia"
+      }
+    ],
+    "archivo": "C:\\Users\\USUARIO\\Documents\\deepseek-harness\\default-workspace\\Control-Compras\\ejemplo\\tickets\\entrada\\2026-07-19_panaderia-la-espiga_10000.00.jpg"
+  },
+  {
+    "fecha": "2026-08-08",
+    "comercio": "Almacen Don Pedro",
+    "numero": "A-901",
+    "forma_pago": "Billetera virtual",
+    "moneda": "ARS",
+    "total": 21300,
+    "lineas": [
+      {
+        "descripcion": "Vino tinto reserva",
+        "cantidad": 2,
+        "unidad": "ud",
+        "precio": 6500,
+        "iva": 21,
+        "categoria": "Almacen y bebidas"
+      },
+      {
+        "descripcion": "Queso cremoso",
+        "cantidad": 1,
+        "unidad": "kg",
+        "precio": 9800,
+        "iva": 10.5,
+        "categoria": "Almacen y bebidas"
+      },
+      {
+        "descripcion": "Descuento general",
+        "cantidad": 1,
+        "unidad": "ud",
+        "precio": -1500,
+        "iva": 21,
+        "categoria": "Almacen y bebidas"
+      }
+    ],
+    "archivo": "C:\\Users\\USUARIO\\Documents\\deepseek-harness\\default-workspace\\Control-Compras\\ejemplo\\tickets\\entrada\\2026-08-08_almacen-don-pedro_21300.00.jpg"
+  },
+  {
+    "fecha": "2026-08-25",
+    "comercio": "Internet Fibra",
+    "numero": "IF-0826",
+    "forma_pago": "Transferencia",
+    "moneda": "ARS",
+    "total": 28000,
+    "iva_global": 21,
+    "lineas": [
+      {
+        "descripcion": "Abono mensual 300 Mb",
+        "cantidad": 1,
+        "unidad": "servicio",
+        "precio": 28000,
+        "categoria": "Servicios y suministros"
+      }
+    ],
+    "archivo": "C:\\Users\\USUARIO\\Documents\\deepseek-harness\\default-workspace\\Control-Compras\\ejemplo\\tickets\\entrada\\2026-08-25_internet-fibra_28000.00.jpg"
+  },
+  {
+    "fecha": "2026-09-14",
+    "comercio": "Lo de Marta",
+    "numero": "R-654",
+    "forma_pago": "Tarjeta credito",
+    "moneda": "ARS",
+    "total": 32000,
+    "iva_global": 21,
+    "lineas": [
+      {
+        "descripcion": "Milanesa napolitana",
+        "cantidad": 2,
+        "unidad": "ud",
+        "precio": 12500,
+        "categoria": "Restaurantes y bares"
+      },
+      {
+        "descripcion": "Bebida sin alcohol",
+        "cantidad": 2,
+        "unidad": "ud",
+        "precio": 3500,
+        "categoria": "Restaurantes y bares"
+      }
+    ],
+    "archivo": "C:\\Users\\USUARIO\\Documents\\deepseek-harness\\default-workspace\\Control-Compras\\ejemplo\\tickets\\entrada\\2026-09-14_lo-de-marta_32000.00.jpg"
+  },
+  {
+    "fecha": "2026-10-05",
+    "comercio": "Ropa Sur",
+    "numero": "RS-22",
+    "forma_pago": "Tarjeta credito",
+    "moneda": "ARS",
+    "total": 107000,
+    "iva_global": 21,
+    "lineas": [
+      {
+        "descripcion": "Campera de abrigo",
+        "cantidad": 1,
+        "unidad": "ud",
+        "precio": 45000,
+        "categoria": "Ropa y calzado"
+      },
+      {
+        "descripcion": "Zapatillas running",
+        "cantidad": 1,
+        "unidad": "ud",
+        "precio": 62000,
+        "categoria": "Ropa y calzado"
+      }
+    ],
+    "archivo": "C:\\Users\\USUARIO\\Documents\\deepseek-harness\\default-workspace\\Control-Compras\\ejemplo\\tickets\\entrada\\2026-10-05_ropa-sur_107000.00.jpg"
+  }
+]

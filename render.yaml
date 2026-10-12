@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: control-compras
+    env: python
+    buildCommand: apt-get update && apt-get install -y tesseract-ocr && pip install -r requirements.txt
+    startCommand: python servidor.py --puerto $PORT
+    plan: free
